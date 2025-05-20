@@ -14,7 +14,7 @@
 - Latest Intel Drivers (for GPU support)
 
 
-### Installating Libraries for Using Intel GPU/NPU: 
+### Installing Libraries for Using Intel GPU: 
 
 _Installing PyTorch 2.7 for the Intel GPU_:
 
