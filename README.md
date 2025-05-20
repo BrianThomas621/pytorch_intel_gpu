@@ -6,7 +6,7 @@
 - *NPU:* Intel AI Boost: TOPS: 13
 
 
-#### Software Prerequisites: 
+### Software Prerequisites: 
 
 - C++ Libraries
 - Microsoft Visual Studio 2022 Community Edition (choose Desktop Development with C++) 
@@ -14,7 +14,7 @@
 - Latest Intel Drivers (for GPU support)
 
 
-#### Installating Libraries for Using Intel GPU/NPU: 
+### Installating Libraries for Using Intel GPU/NPU: 
 
 _Installing PyTorch 2.7 for the Intel GPU_:
 
@@ -30,11 +30,8 @@ Note that I cannot get `uv` to install/add this extension, so here I am just doi
 
 `pip install intel-extension-for-pytorch==2.7.10+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/`
 
-_Add OpenVINO:_
 
-`uv add openvino==2025.1.0`
-
-## Further Notes:
+### Further Notes:
 
 When running the `intel_ipex_check`, the following warning occurs:
 
@@ -52,4 +49,3 @@ I need to look into this!
 
 - [Intel Extension for PyTorch Tutorial with Code Examples (PyTorch)](https://docs.pytorch.org/tutorials/recipes/intel_extension_for_pytorch.html)
 
-- [OpenVINO 2025 Installation Guide](https://docs.openvino.ai/2025/get-started/install-openvino.html)
